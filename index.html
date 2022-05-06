@@ -6,15 +6,10 @@
       
    </head> 
 <body> 
+<script type="text/javascript" src="main.js"</script>
 <script>
   alert('1');  
-  function displayNotification() {
-  if (Notification.permission == 'granted') {
-    navigator.serviceWorker.getRegistration().then(function(reg) {
-      reg.showNotification('Hello world!');
-    });
-  }
-} 
+  
 </script>
    
 <script>
