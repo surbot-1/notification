@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
+      
+   </head> 
+<body> 
+   <script>
+      
+  function displayNotification() {
+  if (Notification.permission == 'granted') {
+    navigator.serviceWorker.getRegistration().then(function(reg) {
+      reg.showNotification('Hello world!');
+    });
+  }
+} 
+</script>
+      
+</body>
+</html>
