@@ -6,3 +6,4 @@ function displayNotification() {
   }
 } 
 displayNotification(); 
+alert('noti'); 
