@@ -5,5 +5,5 @@ function displayNotification() {
     });
   }
 } 
-displayNotification(); 
-alert('noti'); 
+// displayNotification(); 
+// alert('noti'); 
